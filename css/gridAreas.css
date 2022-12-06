@@ -4,6 +4,7 @@
     padding: unset;
     width: 100vw;
     height: 100vh;
+    max-height: unset;
     overflow: hidden;
     aspect-ratio: unset;
 }
