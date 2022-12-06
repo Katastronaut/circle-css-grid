@@ -1,0 +1,20 @@
+/* Structure */
+.grid--wrapper {
+    position: absolute;
+    width: 100%;
+    max-width: inherit;
+    aspect-ratio: 1;
+    padding: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.grid--view { pointer-events: none; }
+.grid--view div { border: 1px dotted #ffa652; }
+
+.grid--element {
+    background: #2a2a2a;
+    border-radius: 10px;
+}
